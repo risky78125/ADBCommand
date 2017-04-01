@@ -24,5 +24,12 @@
 
     adb shell dumpsys activity | grep "mFocusedActivity"
     
-7. 
+7. 进入root权限的shell
+
+    adb root shell
+    
+8. 取出对应的包名的app的安装包.包名需要在手机的`data/app/`目录下查看
+
+    adb pull /data/app/*package_name*/base.apk
+
 
