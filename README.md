@@ -31,6 +31,10 @@
 8. 取出对应的包名的app的安装包.包名需要在手机的`data/app/`目录下查看
 
     adb pull /data/app/*package_name*/base.apk
+    
+9. 对手机进行截图并保持到SD卡中
+
+    adb shell /system/bin/screencap -p /sdcard/screenshot.png
 
 
 
