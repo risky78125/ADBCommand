@@ -1,3 +1,7 @@
 oil_db
 *.db
 *.apk
+*.png
+*.graffle
+*.pages
+*.xml
