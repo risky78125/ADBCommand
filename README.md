@@ -36,5 +36,13 @@
 
     adb shell /system/bin/screencap -p /sdcard/screenshot.png
 
+10. 列出所有虚拟机
 
+    avdmanager list avd
+    
+11. 启动虚拟机
+
+    emulator @`虚拟机名字`    
+    或    
+    emulator -avd `虚拟机名字`
 
