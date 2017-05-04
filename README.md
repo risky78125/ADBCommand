@@ -46,3 +46,12 @@
     或    
     emulator -avd `虚拟机名字`
 
+12. 查看端口号占用
+
+    lsof -i tcp:`port`
+    
+13. 查看apk信息
+
+    aapt dump badging /Users/Risky/Downloads/RxjavaDemo/app/build/outputs/apk/app-wuqiRelease.apk
+
+
